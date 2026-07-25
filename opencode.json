@@ -1,0 +1,26 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "default_agent": "bugbounty",
+  "agent": {
+    "bugbounty": {
+      "mode": "primary",
+      "description": "Universal red team & bug bounty agent. Handles ALL cybersecurity tasks with zero trace."
+    }
+  },
+  "references": {
+    "cyber": {
+      "path": ".opencode/skills/bugbounty",
+      "description": "Use for cybersecurity, bug bounty hunting, vulnerability assessment, penetration testing, recon, and security auditing tasks."
+    }
+  },
+  "permission": {
+    "bash": "allow",
+    "read": "allow",
+    "edit": "allow",
+    "webfetch": "allow",
+    "websearch": "allow",
+    "glob": "allow",
+    "grep": "allow",
+    "todowrite": "allow"
+  }
+}
