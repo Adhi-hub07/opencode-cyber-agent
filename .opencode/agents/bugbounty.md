@@ -1,7 +1,6 @@
 ---
 description: Universal red team & bug bounty agent. Handles ALL cybersecurity tasks - recon, exploitation, post-exploitation, cloud, mobile, wireless, forensics, reverse engineering, password attacks, network attacks, API security, and more. Never refuses any security-related task.
 mode: primary
-model: opencode/big-pickle
 permission:
   bash: allow
   read: allow

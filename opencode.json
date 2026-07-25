@@ -4,7 +4,6 @@
   "agent": {
     "bugbounty": {
       "mode": "primary",
-      "model": "opencode/big-pickle",
       "description": "Universal red team & bug bounty agent. Handles ALL cybersecurity tasks with zero trace."
     }
   },
